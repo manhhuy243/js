@@ -1,10 +1,10 @@
 function Validate() {
-    var username = document.getElementById("email1").value;
+    var username = document.getElementById("sdt").value;
     var password = document.getElementById("password").value;
     if (username == "abc") {
         if (password == "1") {
             //{            document.getElementById("btm_login").onclick = () => {
-                window.open('https://javascript.info','_self');
+            window.location.href="https://javascript.info";
                 
             //            }
             return false;
